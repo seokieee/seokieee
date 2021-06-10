@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: "본고딕_볼드";
+    src:url(./fonts/NotoSansCJKkr-Bold.otf);
+}
+
+@font-face {
+    font-family: "본고딕";
+    src:url(./fonts/NotoSansCJKkr-Medium.otf);
+}
+
+@font-face {
+    font-family: "본고딕 라이트";
+    src:url(./fonts/NotoSansCJKkr-Light.otf);
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: "본고딕_볼드";
+  color: #ffffff;
+  background-color: #000000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-image: url(./img/background.jpg);
+  background-size: 100%;
+  font-family: "본고딕";
+  font-size: 100%;
+}
+
+h1 {
+  font-family: "본고딕_볼드";
+  font-size: 150%;
+}
+
+img {
+  width: 100%
+}
+
+h4 {
+  font-family: "본고딕";
+  font-style: normal;
+  font-weight: normal;
+}
+
+h5 {
+  font-weight: lighter;
+}
+
+[class*="c_"] {
+  float: left;
+  padding: 10px;
+}
+
+[class*="c_"] {
+  width: 100%;
+}
+
+@media only screend and (min-width: 768px) {
+  .c_m_1 {width: 8.33%;}
+  .c_m_2 {width: 16.66%;}
+  .c_m_3 {width: 25%;}
+  .c_m_4 {width: 33.33%;}
+  .c_m_5 {width: 41.66%;}
+  .c_m_6 {width: 50%;}
+  .c_m_7 {width: 58.33%;}
+  .c_m_8 {width: 66.66%;}
+  .c_m_9 {width: 75%;}
+  .c_m_10 {width: 83.33%;}
+  .c_m_11 {width: 91.66%;}
+  .c_m_12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    .c_1 {width: 8.33%;}
+    .c_2 {width: 16.66%;}
+    .c_3 {width: 25%;}
+    .c_4 {width: 33.33%;}
+    .c_5 {width: 41.66%;}
+    .c_6 {width: 50%;}
+    .c_7 {width: 58.33%;}
+    .c_8 {width: 66.66%;}
+    .c_9 {width: 75%;}
+    .c_10 {width: 83.33%;}
+    .c_11 {width: 91.66%;}
+    .c_12 {width: 100%;}
+}
+
+header {
+  height: 80px;
+  padding: 20px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+li.now{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+aside#menu {
+  color: #ffffff;
+}
+
+aside#menu li {
+  padding: 10px;
+  margin: 5px 0 0 0;
+
+}
+
+aside#menu li a:hover {
+  background-color: #000000;
+}
+
+section#main {
+  padding: 15px;
+}
+
+section#main p {
+  padding: 5px;
+  font-size: 0.95em;
+  line-height: 130%;
+}
+
+section#main video {
+  width: 100%;
+}
+
+aside#photos img {
+  width: 100%;
+}
+
+aside#photos li {
+  margin: 5px 0 0 0;
+}
+
+footer {
+  height: 60px;
+  padding: 10px;
+  clear: both;
+  text-align: right;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "본고딕 라이트";
+  font-size: 50%;
+}
+
+footer a {
+  color: #ffffff;
+}
